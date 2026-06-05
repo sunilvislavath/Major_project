@@ -130,6 +130,12 @@ body {
     width: 90vh;
 }
 
+@media (max-width: 768px) {
+    #map {
+        height: 300px;
+    }
+}
+
 /* Become a host */
 .host-btn {
     padding: 0.5rem 1rem !important;
