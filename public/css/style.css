@@ -124,10 +124,23 @@ body {
     padding-right: 0;
 }
 
-/* Map */
+/* Map
 #map {
     height: 400px;
     width: 90vh;
+}
+
+@media (max-width: 768px) {
+    #map {
+        height: 300px;
+    }
+} */
+
+/* Map */
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
